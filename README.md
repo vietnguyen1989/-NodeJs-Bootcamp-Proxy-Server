@@ -19,13 +19,13 @@ Completed:
     [TO DO] Optional: -h argument prints CLI API
 
 Walkthrough Gif:
-	Added walkthrough.gif to the project root
-
+	![alt text](https://github.com/vietnguyen1989/-NodeJs-Bootcamp-Proxy-Server/blob/master/walkthrough.gif "walkthrough.gif")
+	
 Javascripting Workshop:
-	Added workshop completed screenshot as javascripting_workshop.png to the project root
+	 ![alt text](https://github.com/vietnguyen1989/-NodeJs-Bootcamp-Proxy-Server/blob/master/javascripting_workshop.png "javascripting workshop is completed")
 
 Learnyounode Workshop:
-	Added worksho completed screenshot as learnyounode_workshop.png to the project root
+	![alt text](https://github.com/vietnguyen1989/-NodeJs-Bootcamp-Proxy-Server/blob/master/learnyounode_workshop.png "Learnyounode workshop is completed")
 
 Starting the Server:
 	npm start
@@ -34,6 +34,7 @@ Features:
 
 Echo Server:
 
+	curl -v -X POST http://127.0.0.1:8000 -d "hello self" -H "x-asdf: yodawg
 	Note: Unnecessary use of -X or --request, POST is already inferred.
 	* Rebuilt URL to: http://127.0.0.1:8000/
 	*   Trying 127.0.0.1...
@@ -65,6 +66,7 @@ Proxy Server:
 
 Port 8001 will proxy to the echo server on port 8000.
 
+	curl -v -X POST http://127.0.0.1:8001 -d "hello self" -H "x-asdf: yodawg"
 	*   Trying 127.0.0.1...
 	* Connected to 127.0.0.1 (127.0.0.1) port 8001 (#0)
 	> POST /asdf HTTP/1.1
