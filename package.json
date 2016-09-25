@@ -1,0 +1,15 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "Proxy server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Nguyen Viet Pham",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.75.0",
+    "yargs": "^3.32.0"
+  }
+}
